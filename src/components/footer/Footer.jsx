@@ -30,6 +30,7 @@ const Footer = () => {
             href="https://www.instagram.com/beebek_bhatta/"
             className="footer__social-link"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <i class="uil uil-instagram"></i>
           </a>
@@ -38,6 +39,7 @@ const Footer = () => {
             href="https://github.com/beebekbhz"
             className="footer__social-link"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <i class="uil uil-github-alt"></i>
           </a>

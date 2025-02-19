@@ -7,11 +7,17 @@ const Social = () => {
         href="https://www.facebook.com/beebekbhz/"
         className="home__social-icon"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <i class="bx bxl-facebook-circle"></i>
       </a>
 
-      <a href="#" className="home__social-icon" target="_blank">
+      <a
+        href="#https://www.x.com/"
+        className="home__social-icon"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <i class="uil uil-twitter"></i>
       </a>
 
@@ -19,6 +25,7 @@ const Social = () => {
         href="https://github.com/beebekbhz"
         className="home__social-icon"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <i class="uil uil-github-alt"></i>
       </a>

@@ -8,10 +8,10 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-      "service_ipsh5uk",
-      "template_8hsyt8y",
+      "service_9jj4gbo",
+      "template_evii8u9",
       form.current,
-      "0JVtTVYN2tlBWZoaQ"
+      "lfL3nN6QF2GW_4p3S"
     );
     e.target.reset();
   };
@@ -38,6 +38,7 @@ const Contact = () => {
                 href="mailto:bibekbhatta99.com"
                 className="contact__button"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
@@ -54,6 +55,7 @@ const Contact = () => {
                 href="https://api.whatsapp.com/send?phone=9861755990&text=Hello, more information!"
                 className="contact__button"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Write me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
@@ -70,6 +72,7 @@ const Contact = () => {
                 href="https://t.me/beebek_bhatta"
                 className="contact__button"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Write me
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
